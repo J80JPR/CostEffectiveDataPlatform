@@ -1,10 +1,9 @@
 ## Overview
 This template deploys the services that are used in the **Cost Effective Data Platform on Azure**. 
 
-//  Main infrastructure deployment template for data platform
-//  Deploys core services including:
-//  - Key Vault, Storage, Data Factory, Databricks, Function Apps, SQL Server
-//  - Configures role assignments and dependencies between services
+Deploys core services including:
+    - Key Vault, Storage, Data Factory, Databricks, Function Apps, SQL Server
+    - Configures role assignments and dependencies between services
 
 This reference architecture is designed to provide individuals with a path to quickly build a data platform in Azure. More information about this architecture can be found at, [LINK TEXT](https://link.url).
 
