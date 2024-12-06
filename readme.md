@@ -1,10 +1,6 @@
 ## Overview
 This template deploys the services that are used in the **Cost Effective Data Platform on Azure**. 
 
-Deploys core services including:
-    - Key Vault, Storage, Data Factory, Databricks, Function Apps, SQL Server
-    - Configures role assignments and dependencies between services
-
 This reference architecture is designed to provide individuals with a path to quickly build a data platform in Azure. More information about this architecture can be found at, [LINK TEXT](https://link.url).
 
 This template will deploy the following resources:
@@ -17,7 +13,7 @@ This template will deploy the following resources:
 These additional resources are optional:
 - **Azure Event Hub**: a big-data streaming platform and event ingestion service. It can receive and process millions of events per second. Data sent to an event hub can be transformed and stored by using any real-time analytics provider or batching/storage adapters.
 
-In addition to these services, the template will set up the necessary permissions for each of the resources to communicate with each other. The template will also create Azure Data Factory Linked Services for each resource.
+In addition to these services, the template will set up the necessary permissions for each of the resources to communicate with each other. The template will also create Azure Data Factory Linked Services and common datasets for each resource.
 
 ## Architecture
 ![Architecture Diagram](images/cost-effective-data-platform-architecture.png "Architecture for cost effective data platform on Azure")
