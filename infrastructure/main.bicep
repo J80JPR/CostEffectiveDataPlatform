@@ -2,7 +2,7 @@ extension microsoftGraphV1
 
 targetScope = 'subscription'
 
-var securityGroupName = 'CF.CumulusAdmins'
+var securityGroupName = 'CEDP.Admins'
 
 // resource securityGroup 'Microsoft.Graph/groups@v1.0' existing = {
 //   uniqueName: securityGroupName
